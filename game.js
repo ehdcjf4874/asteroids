@@ -717,7 +717,7 @@ Asteroid = function () {
       Game.sprites.push(roid);
     }
   }
-
+//test
   this.collision = function (other) {
     SFX.explosion();
     if (other.name == "bullet") Game.score += 120 / this.scale;
