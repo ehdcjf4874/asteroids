@@ -1,0 +1,21 @@
+@charset "utf-8";
+body {padding:50px;
+	background-image:url(../../images/bg.jpg);
+	background-size:cover;}
+form{width:400px; position: absolute; left:50%; margin-left:-200px;
+	top:55%; margin-top:-200px;}
+
+	legend{color :#FFFFFF; margin-bottom:25px;}
+	.login .top { position:relative; width:329px;}
+	.login .top li { padding: 0 0 9px;}
+	.login .top li label { display: inline-block; width: 63px; font-size: 12px; color :#FFFFFF; font-family:dotum; font-wieght:bold;}
+	.login .top li input[type="text"],
+	.login .top li input[type="password"] { width :144px; height : 29px; padding: 0; border-color:#d9d9d9;}
+	.login .top li.btn{position: absolute; right:0; top:0;}
+	.login .top li a {display:block; width:109px; height:67px; background: #829c2c; border: 1px solid #778f28; 
+	font-size: 17px; color: #fff; text-decoration:none; text-align: center; line-height : 69px; font-weight:bold;}
+	.login .top li.save{padding: 0 0 0 59px; }
+	.login .top li.save label {font-weight: normal;}
+	.login .btm {padding: 24px 0 0 59px;}
+	.login .btm li { padding : 0 0 0 9px; backgruond: url() no-repeat left; color :#FFFFFF; font-size:12px; font-family: dotum; line-height:24px;}
+	.login .btm li a {margin: 0 0 0 10px; font-family:dotum; font-size:12px; font-weight:bold; color:#829c2c; text-decoration:underline;}
